@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 
 var app = express()
-.use(cors({credentials: true, origin: 'http://localhost:63959'
+.use(cors({credentials: true, origin: ''
 }))
 .use(bodyParser.json())
 .use(bodyParser.urlencoded({ extended: true })); 
